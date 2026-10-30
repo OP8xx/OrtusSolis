@@ -1,0 +1,32 @@
+// List of all the greetings exported to be used in the header component of the website.
+
+export const greetings = [
+    "Shall we get started?",
+    "Where are we at today?",
+    "Let’s begin.",
+    "Stay curious, stay calm.",
+    "Your move.",
+    "What’s the plan?",
+    "Where should we begin?",
+    "What’s on your mind?",
+    "Nice to have you back.",
+    "Settle in.",
+    "Easy does it.",
+    "Just begin.",
+    "Where does your curiosity lead?",
+    "What shall we explore?",
+    "Something new to discover?",
+    "Take a seat.",
+    "Peace and quiet.",
+    "Let’s drift in.",
+    "Unhurried.",
+    "Stay a while.",
+    "All good here.",
+    "A fresh page.",
+    "Ready and waiting.",
+    "One thing at a time.",
+    "Begin anywhere.",
+    "Let it flow.",
+    "Room to think.",
+    "Plenty of time."
+];
