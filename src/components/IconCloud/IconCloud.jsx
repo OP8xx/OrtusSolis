@@ -27,6 +27,7 @@ const cloudOptions = {
 export default function IconCloud() {
     return (
       <div className="w-1/2 h-full flex justify-center items-center">
+        <span className='border h-2/3 opacity-10'></span>
         <Cloud options={cloudOptions}>
           {icons.map((icon) => (
             <a 
@@ -38,6 +39,7 @@ export default function IconCloud() {
             </a>
           ))}
         </Cloud>
+        <span className='border h-2/3 opacity-10'></span>
       </div>
     );
 }
