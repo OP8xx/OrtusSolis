@@ -4,7 +4,7 @@ as the current version of the website.
 */
 
 // Imports for the components
-import versionIcon from '../../assets/version-icon.svg';
+import versionIcon from '../../assets/logos/version-icon.svg';
 
 export default function Footer() {
     return (

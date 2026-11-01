@@ -26,7 +26,7 @@ const cloudOptions = {
 
 export default function IconCloud() {
     return (
-      <div className="w-1/2 h-full flex justify-center items-center">
+      <div className="w-1/3 h-full flex justify-center items-center">
         <span className='border h-2/3 opacity-10'></span>
         <Cloud options={cloudOptions}>
           {icons.map((icon) => (
@@ -35,7 +35,7 @@ export default function IconCloud() {
             href={icon.url} 
             rel='noopener noreferrer'
             >
-              <img src={icon.src} alt={icon.name} width="64" height="64" />
+              <img src={icon.src} alt={icon.name} width='64' height='64'/>
             </a>
           ))}
         </Cloud>

@@ -1,17 +1,17 @@
 // Importing all the icon images from the assets file.
-import githubIcon from '../../assets/github.svg';
-import gitlabIcon from '../../assets/gitlab.svg';
-import moodleIcon from '../../assets/tuni-moodle.png';
-import geminiIcon from '../../assets/gemini.png';
-import m365Icon from '../../assets/m365.svg';
-import plussaIcon from '../../assets/plussa.png';
-import sisuIcon from '../../assets/sisu.svg';
-import uniSafkaIcon from '../../assets/uniSafka.png';
-import pomoStudyIcon from '../../assets/pomostudy.png';
-import quizletIcon from '../../assets/quizlet.svg';
-import claudeIcon from '../../assets/claude.png';
-import youtubeIcon from '../../assets/youtube.svg';
-import stackOverFlowIcon from '../../assets/stackoverflow.svg';
+import githubIcon from '../../assets/logos/github.svg';
+import gitlabIcon from '../../assets/logos/gitlab.svg';
+import moodleIcon from '../../assets/logos/tuni-moodle.png';
+import geminiIcon from '../../assets/logos/gemini.png';
+import m365Icon from '../../assets/logos/m365.svg';
+import plussaIcon from '../../assets/logos/plussa.png';
+import sisuIcon from '../../assets/logos/sisu.svg';
+import uniSafkaIcon from '../../assets/logos/uniSafka.png';
+import pomoStudyIcon from '../../assets/logos/pomostudy.png';
+import quizletIcon from '../../assets/logos/quizlet.svg';
+import claudeIcon from '../../assets/logos/claude.png';
+import youtubeIcon from '../../assets/logos/youtube.svg';
+import stackOverFlowIcon from '../../assets/logos/stackoverflow.svg';
 
 // Creating a list of objects to be used in the IconCloud component
 export const icons = [

@@ -18,7 +18,7 @@ export default function Header() {
     }
 
     return (
-        <header className='w-full h-32 flex justify-center items-center'>
+        <header className='w-full h-32 flex justify-center items-center relative'>
             <h1 className='text-5xl text-default-text font-main'>
                 <Typewriter options={{
                     strings: generateRandomGreeting(),
@@ -27,6 +27,12 @@ export default function Header() {
                     delay: 50
                 }}/>
             </h1>
+
+            <div className='h-full w-32 mr-10 absolute right-0 top-0 flex justify-center items-center'>
+                <p className='w-1/4 flex justify-center border border-gray-300 rounded-lg hover:cursor-pointer'>L</p>
+                <p className='w-1/4 flex justify-center'>/</p>
+                <p className='w-1/4 flex justify-center border border-gray-300 rounded-lg hover:cursor-pointer'>D</p>
+            </div>
         </header>
     )
 }
