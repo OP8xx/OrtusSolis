@@ -48,7 +48,7 @@ export default function WeatherInfo() {
 
     return (
         <div className="w-1/3 h-full flex justify-center items-center">
-            <div className="w-1/2 h-1/2 border rounded-2xl border-gray-200 flex flex-col p-4 font-main dark:border-gray-700">
+            <div className="w-2/3 h-1/2 border rounded-2xl border-gray-200 flex flex-col p-4 font-main dark:border-gray-700">
                 <h1 className="w-full h-1/8 text-3xl">Vuores, Tampere</h1>
 
                 <span className='border opacity-20 mt-2 mb-2'></span>
