@@ -18,7 +18,7 @@ import './App.css';
 function App() {
 
   return (
-    <div className='w-screen h-screen bg-default-background flex flex-col items-center justify-between'>
+    <div className='w-screen h-screen bg-default-background flex flex-col items-center justify-between dark:bg-background-dark dark:text-default-background transition-all'>
       <Header/>
       <main className='h-3/4 w-full flex'>
         <WeatherInfo/>

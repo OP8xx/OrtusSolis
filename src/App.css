@@ -1,11 +1,12 @@
 @import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@0,9..144;1,9..144&display=swap');
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
     --font-main: "Fraunces", serif; 
     --color-default-background: #F8F8F8;
     --color-default-text: #292A2E;
 
-    --color-background-dark: #2a2b2a
+    --color-background-dark: #2a2b2a;
 }
 
